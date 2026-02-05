@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Trang Sự Kiện</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+}
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.event-box{
+    background: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.label{
+    font-weight: bold;
+    color: #005b96;
+    margin-bottom: 5px;
+}
+.event-desc{
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.images{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.img-box{
+    flex: 1;
+    min-width: 260px;
+    height: 220px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.video-box{
+    margin-top: 10px;
+}
+video{
+    width: 100%;
+    max-width: 520px;
+    border-radius: 6px;
+    display: block;
+}
+
+a.back{
+    display: inline-block;
+    margin-top: 20px;
+    color: #005b96;
+    font-weight: bold;
+    text-decoration: none;
+}
+a.back:hover{ text-decoration: underline; }
+</style>
+</head>
+
+<a href="index.html">Trang chủ</a>
+
+
+<body>
+<div class="container">
+
+    <div class="event-box">
+        <div class="label">Sự kiện:</div>
+        <div> CHƯƠNG TRÌNH VĂN NGHỆ CHÀO MỪNG 20/11</div>
+
+        <div class="label" style="margin-top:15px;">Mô tả:</div>
+        <div class="event-desc">
+            Nhiệt Huyết Thanh Xuân ❤️😊
+        </div>
+
+        <div class="images">
+            <div class="img-box">
+                <img src="images/anh-mua.jpg" alt="Văn nghệ 1">
+            </div>
+            <div class="img-box">
+                <img src="images/anh-mua1.jpg" alt="Văn nghệ 2">
+            </div>
+            
+        </div>
+
+        <div class="video-box">
+            <video controls>
+                <source src="Video/video.mp4" type="video/mp4">
+                Trình duyệt của bạn không hỗ trợ video.
+            </video>
+        </div>
+    </div>
+	
+	
+    <div class="event-box">
+        <div class="label">Sự kiện:</div>
+        <div>VƯỜN RAU THANH NIÊN</div>
+
+        <div class="label" style="margin-top:15px;">Mô tả:</div>
+        <div class="event-desc">
+            MỖI NGÀY MỘT TIN TỐT – MỖI TUẦN MỘT CÂU CHUYỆN ĐẸP 
+        </div>
+
+        <div class="images">
+            <div class="img-box">
+                <img src="images/vuon-rau.jpg" alt="Văn nghệ 1">
+            </div>
+            <div class="img-box">
+                <img src="images/vuon-rau1.jpg" alt="Văn nghệ 2">
+            </div>
+            <div class="img-box">
+                <img src="images/vuon-rau2.jpg" alt="Văn nghệ 3">
+            </div>
+        </div>
+    </div>
+	
+	    <div class="event-box">
+        <div class="label">Sự kiện:</div>
+        <div> CHƯƠNG TRÌNH VĂN NGHỆ CHÀO MỪNG 20/11</div>
+
+        <div class="label" style="margin-top:15px;">Mô tả:</div>
+        <div class="event-desc">
+            Nhiệt Huyết Thanh Xuân ❤️😊
+        </div>
+
+        <div class="images">
+            <div class="img-box">
+                <img src="images/quyen-gop.jpg" alt="Văn nghệ 1">
+            </div>
+            <div class="img-box">
+                <img src="images/quyen-gop1.jpg" alt="Văn nghệ 2">
+            </div>
+            
+        </div>
+
+
+    </div>
+
+</div>
+</body>
+</html>
